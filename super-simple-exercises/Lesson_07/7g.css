@@ -1,0 +1,33 @@
+input{
+  font-family: Arial;
+  font-size: 20px;
+  width: 300px;
+  color: rgb(100 100 100);
+  border: none;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.profile{
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius:35px;
+  margin-left: 30px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+.tweet{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  background-color: rgb(14, 175, 250);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

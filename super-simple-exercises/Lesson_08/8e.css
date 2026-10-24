@@ -1,0 +1,41 @@
+p{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+input{
+  font-family: Arial;
+  display: block;
+  border: none;
+  background-color: rgb(233, 230, 230);
+  color: white;
+  width: 300px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  margin-bottom: 7px;
+}
+button{
+  margin-top: 20px;
+}
+
+.request{
+  background-color: black;
+  color: white;
+  border: none;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+
+}
+.later{
+  border: none;
+  background-color: rgb(233, 230, 230);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
