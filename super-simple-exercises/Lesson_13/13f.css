@@ -1,0 +1,86 @@
+div{
+  font-family: Arial;
+}
+
+.conatiner{
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  box-shadow: 0 1px 5px rgba(0 0 0 0.5);
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: top;
+  width: 550px;
+}
+
+.profile-picture-container{
+  margin-right: 15px;
+}
+
+.profile-picture{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.tweet-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.username{
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.twitter-handel{
+  color: rgb(120 120 120);
+}
+
+.message{
+  flex: 1;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.video-preview{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: solid;
+  border-color: rgb(200 200 200);
+  border-width: 1px;
+  height: 100px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.thumbnail-preview{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 10px;
+}
+
+.video-info{
+  flex: 1;
+}
+
+.website-name{
+  color: rgb(111, 111, 111);
+  margin-bottom: 3px;
+}
+
+.video-title {
+  line-height: 22px;
+}

@@ -1,0 +1,39 @@
+.header{
+  background-color: rgb(120, 82, 178);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.download{
+  font-family: Arial;
+  color: white;
+  background-color: rgb(120, 82, 178);
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  margin-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.home-link{
+  font-family: Arial;
+  font-weight: bold;
+  margin-left: 10px;
+  color: white;
+}
+
+.search-bar{
+  width: 500px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 30px;
+}

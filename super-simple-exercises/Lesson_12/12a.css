@@ -1,0 +1,15 @@
+.container{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.div1{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.div2{
+  background-color: lightpink;
+  width: 75px;
+}
